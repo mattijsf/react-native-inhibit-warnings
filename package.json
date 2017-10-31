@@ -1,0 +1,44 @@
+{
+  "name": "react-native-inhibit-warnings",
+  "version": "1.0.1",
+  "description": "Silences various Xcode warnings from React Native modules",
+  "main": "index.js",
+  "bin": {
+    "react-native-inhibit-warnings": "index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattijsf/react-native-inhibit-warnings.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "xcode",
+    "build",
+    "configuration",
+    "warnings"
+  ],
+  "author": "mattijsf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattijsf/react-native-inhibit-warnings/issues"
+  },
+  "homepage": "https://github.com/mattijsf/react-native-inhibit-warnings#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "glob": "^7.1.1",
+    "path": "^0.12.7",
+    "plist": "^2.0.1",
+    "xcode": "^0.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.0",
+    "eslint-config-keystone": "^3.0.0",
+    "eslint-config-keystone-react": "^1.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "presets": ["react-native"],
+  "sourceMaps": true,
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-inline-environment-variables"
+      ]
+    }
+  }
+}
