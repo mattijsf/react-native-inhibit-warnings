@@ -8,6 +8,7 @@ function updateProject (project) {
 
 	project.addBuildProperty('GCC_WARN_INHIBIT_ALL_WARNINGS', 'YES');
 	project.addBuildProperty('RUN_CLANG_STATIC_ANALYZER', 'NO');
+	project.addBuildProperty('ALWAYS_SEARCH_USER_PATHS', 'NO');
 
 	const attributes = project.getFirstProject().firstProject.attributes;
 	attributes.LastUpgradeCheck = 9999;
