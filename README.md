@@ -67,15 +67,6 @@ A good starting point for troubleshooting is:
 
 If you're still having trouble, post an issue so we can look into it.
 
-## Tested with the following RN versions
-
-Folks using this module have confirmed the library works with the following React Native versions. If your version is not on the list and you have confirmed it works as expected please create a PR (you can even do it on github.com)
-
-- 0.42.0
-- 0.43.0
-- 0.44.0
-- 0.45.1
-
 ## Running Manually
 
 You can run this package manually with `react-native-inhibit-warnings`.
